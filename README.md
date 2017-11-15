@@ -6,7 +6,7 @@ This code should go in hand with an article Im currently writing!
 * Basic game loop - Done
 * Add SDL v2 and Create a Window - Done
 * Add Player, Sample Map - Done
-* Raycasting (few glitches) - Done
+* Raycasting - Done
 
 
 ## Requirements
