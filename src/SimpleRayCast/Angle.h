@@ -2,27 +2,27 @@
 class Angle
 {
 public:
-  Angle();
-  Angle(float fAngle);
-  ~Angle();
+	Angle();
+	Angle(float fAngle);
+	~Angle();
 
-  void Set(float fAngle);
-  void Add(float fAngle);
-  
-  float Get();
-  float GetSin();
-  float GetCos();
-  float GetTan();
+	void Set(float fAngle);
+	void Add(float fAngle);
 
-  bool IsPointingUp();
-  bool IsPointingDown();
-  bool IsPointingLeft();
-  bool IsPointingRight();
+	float Get();
+	float GetSin();
+	float GetCos();
+	float GetTan();
 
-  static float DegreesToRadians(float fAngle);
+	bool IsPointingUp();
+	bool IsPointingDown();
+	bool IsPointingLeft();
+	bool IsPointingRight();
+
+	static float DegreesToRadians(float fAngle);
 
 protected:
-  
-  float m_fAngle;
+
+	float m_fAngle;
 };
 
