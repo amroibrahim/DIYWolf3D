@@ -1,12 +1,13 @@
 # Simple Ray Cast
-This code is a trimed down version of my HandmadeWorlf3D version.  
-This code should go in hand with an article Im currently writing!  
+This is a simple implementation of a ray cast engine
+![Screen1](https://github.com/amroibrahim/SimpleRayCast/tree/master/img/Screen1.png)  
+![Screen2](https://github.com/amroibrahim/SimpleRayCast/tree/master/img/Screen2.png)  
 
 # Progress 
 * Basic game loop - Done  
 * Add SDL v2 and Create a Window - Done  
 * Add Player, Sample Map - Done  
-* Raycasting - Done  
+* Ray casting - Done  
 
 
 ## Requirements
