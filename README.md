@@ -1,7 +1,7 @@
 # Simple Ray Cast
-This is a simple implementation of a ray cast engine
-![Screen1](https://github.com/amroibrahim/SimpleRayCast/tree/master/img/Screen1.png)  
-![Screen2](https://github.com/amroibrahim/SimpleRayCast/tree/master/img/Screen2.png)  
+This is a simple implementation of a ray cast engine.  
+![Screen1](https://github.com/amroibrahim/SimpleRayCast/blob/master/img/Screen1.png)  
+![Screen2](https://github.com/amroibrahim/SimpleRayCast/blob/master/img/Screen2.png)  
 
 # Progress 
 * Basic game loop - Done  
