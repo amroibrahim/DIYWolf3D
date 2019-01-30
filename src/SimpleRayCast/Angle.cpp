@@ -6,12 +6,12 @@
 
 Angle::Angle()
 {
-	m_fAngle = 0;
+    m_fAngle = 0;
 }
 
 Angle::Angle(float fAngle)
 {
-	m_fAngle = fAngle;
+    m_fAngle = fAngle;
 }
 
 Angle::~Angle()
@@ -20,73 +20,73 @@ Angle::~Angle()
 
 void Angle::Set(float fAngle)
 {
-	m_fAngle = 0;
-	Add(fAngle);
+    m_fAngle = 0;
+    Add(fAngle);
 }
 
 void Angle::Add(float fAngle)
 {
-	m_fAngle += fAngle;
+    m_fAngle += fAngle;
 
-	if (m_fAngle < 0)
-	{
-		m_fAngle += 360;
-	}
-	else if (m_fAngle >= 360)
-	{
-		m_fAngle -= 360;
-	}
+    if (m_fAngle < 0)
+    {
+        m_fAngle += 360;
+    }
+    else if (m_fAngle >= 360)
+    {
+        m_fAngle -= 360;
+    }
 }
 
 float Angle::Get()
 {
-	return m_fAngle;
+    return m_fAngle;
 }
 
 bool Angle::IsPointingUp()
 {
-	return !IsPointingDown();
+    return !IsPointingDown();
 }
 
 bool Angle::IsPointingDown()
 {
-	if (180 <= m_fAngle && m_fAngle < 360)
-	{
-		return true;
-	}
-	return false;
+    if (180 <= m_fAngle && m_fAngle < 360)
+    {
+        return true;
+    }
+    return false;
 }
 
 bool Angle::IsPointingLeft()
 {
-	if (90 <= m_fAngle && m_fAngle < 270)
-	{
-		return true;
-	}
-	return false;
+    if (90 <= m_fAngle && m_fAngle < 270)
+    {
+        return true;
+    }
+    return false;
 }
 
 bool Angle::IsPointingRight()
 {
-	return !IsPointingLeft();
+    return !IsPointingLeft();
 }
 
 float Angle::DegreesToRadians(float fAngle)
 {
-	return fAngle * M_PIl / 180.0f;
+    return fAngle * M_PIl / 180.0f;
 }
 
 float Angle::GetSin()
 {
-	return sin(DegreesToRadians(m_fAngle));
+    return sin(DegreesToRadians(m_fAngle));
 }
 
 float Angle::GetCos()
 {
-	return cos(DegreesToRadians(m_fAngle));
+    return cos(DegreesToRadians(m_fAngle));
 }
 
 float Angle::GetTan()
 {
-	return tan(DegreesToRadians(m_fAngle));
+    return tan(DegreesToRadians(m_fAngle));
 }

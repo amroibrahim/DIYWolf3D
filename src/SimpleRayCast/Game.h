@@ -11,28 +11,28 @@
 class Game
 {
 public:
-	Game();
-	~Game();
+    Game();
+    ~Game();
 
-	bool Init(int iMaxFrameRatePerSec);
-	bool IsRunning();
+    bool Init(int iMaxFrameRatePerSec);
+    bool IsRunning();
 
-	int Execute();
+    int Execute();
 
-	void HandleEvents();
-	void Loop();
-	void Render();
-	void Cleanup();
+    void HandleEvents();
+    void Loop();
+    void Render();
+    void Cleanup();
 
 protected:
-	void Log(std::string strLog);
+    void Log(std::string strLog);
 
-	bool m_bRunning;
-	unsigned  int m_iFrameRate;
-	SDL_Renderer *m_pRenderer;
-	SDL_Window *m_pWindow;
+    bool m_bRunning;
+    unsigned  int m_iFrameRate;
+    SDL_Renderer *m_pRenderer;
+    SDL_Window *m_pWindow;
 
-	Player m_Player;
-	Map m_Map;
-	Renderer m_Renderer;
+    Player m_Player;
+    Map m_Map;
+    Renderer m_Renderer;
 };
