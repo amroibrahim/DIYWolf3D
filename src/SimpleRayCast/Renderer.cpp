@@ -74,7 +74,7 @@ void Renderer::DrawWallAt(SDL_Renderer *pRenderer, int iRow, int iHight)
 {
 	int iCenter = m_iScreenHight / 2;
 	int iHalfHight = iHight / 2;
-	SDL_SetRenderDrawColor(pRenderer, 0, abs((255 - iHight) % 255), 255, SDL_ALPHA_OPAQUE);
+	SDL_SetRenderDrawColor(pRenderer, 0, iHight % 255, 255, SDL_ALPHA_OPAQUE);
 	SDL_RenderDrawLine(pRenderer, iRow, iCenter - iHalfHight, iRow, iCenter + iHalfHight);
 }
 

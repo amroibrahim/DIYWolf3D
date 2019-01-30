@@ -33,6 +33,7 @@
 *.sdf
 *.suo
 *.vcxproj.filters
+*.vcxproj.user
 *.VC.db
 *.ipch
 x64/

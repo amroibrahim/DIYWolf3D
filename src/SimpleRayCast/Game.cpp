@@ -22,7 +22,7 @@ bool Game::Init(int iMaxFrameRatePerSec = 60)
 		return false;
 	}
 
-	m_pWindow = SDL_CreateWindow("Handmade Wolfenstein 3D", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 320, 200, SDL_WINDOW_SHOWN);
+	m_pWindow = SDL_CreateWindow("SimpleRayCast", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 320, 200, SDL_WINDOW_SHOWN);
 
 	if (m_pWindow != nullptr)
 	{
