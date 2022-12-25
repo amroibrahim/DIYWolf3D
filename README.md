@@ -33,9 +33,9 @@ DIYWolf3D
 
 ## Screenshots
 
-![Screen1](https://github.com/amroibrahim/DIYWolf3D/blob/master/img/screen1.png)  
+![Screen1](https://github.com/amroibrahim/DIYWolf3D/blob/master/img/Screen1.png)  
 
-![Screen2](https://github.com/amroibrahim/DIYWolf3D/blob/master/img/screen2.png)  
+![Screen2](https://github.com/amroibrahim/DIYWolf3D/blob/master/img/Screen2.png)  
 
 ## Assets
 Currently using some of [Retro Texture Pack](https://little-martian.itch.io/retro-texture-pack) for walls texturing
