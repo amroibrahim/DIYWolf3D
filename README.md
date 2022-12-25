@@ -5,9 +5,9 @@ DIYWold3D is a simple ray cast engine, this is the second revision of the ray ca
 * All dependencies are included in the project
 
 ## Reference
-* [Game Engine Black Book: Wolfenstein 3D](https://fabiensanglard.net/gebbwolf3d/)  
-* [Raycasting Engine Programming](https://pikuma.com/courses/raycasting-engine-tutorial-algorithm-javascript)  
-* [Raycasting - Lode Vandevenne](https://lodev.org/cgtutor/raycasting.html)  
+* [Game Engine Black Book: Wolfenstein 3D by Fabien Sanglard](https://fabiensanglard.net/gebbwolf3d/)  
+* [Raycasting Engine Programming by Gustavo Pezzi](https://pikuma.com/courses/raycasting-engine-tutorial-algorithm-javascript)  
+* [Raycasting by Lode Vandevenne](https://lodev.org/cgtutor/raycasting.html)  
 * [Ray-Casting Tutorial for Game Development And Other Purposes by F. Permadi](https://permadi.com/1996/05/ray-casting-tutorial-table-of-contents/)
 
 ## Build / Compile
