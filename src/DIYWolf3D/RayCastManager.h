@@ -20,7 +20,7 @@ public:
 	void RenderMiniMap(SDL_Surface* mini_map_surface);
 
 protected:
-	void ProectRenderRays();
+	void ProjectRenderRays();
 	void DrawSky(int x, int sky_end, Uint32* pixels, Uint32 sky_color);
 	void DrawWall(int x, int wall_start, int wall_end, Ray& ray, Uint32* pixels);
 	void DrawFloor(int x, int floor_start, Uint32* pixels, Uint32 floor_color);

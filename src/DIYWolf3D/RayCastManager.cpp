@@ -34,7 +34,7 @@ void RayCastManager::Update(float elapsed_time)
 
 void RayCastManager::Render()
 {
-	ProectRenderRays();
+	ProjectRenderRays();
 
 	SDL_Texture* surface_texture = SDL_CreateTextureFromSurface(configuration_->render.renderer, surface_);
 	SDL_Rect dest = { 0, 0, surface_->w, surface_->h };
@@ -42,7 +42,7 @@ void RayCastManager::Render()
 	SDL_DestroyTexture(surface_texture);
 }
 
-void RayCastManager::ProectRenderRays()
+void RayCastManager::ProjectRenderRays()
 {
 	Uint32 sky_color = SDL_MapRGB(surface_->format,
 		configuration_->render.sky_color_r,
